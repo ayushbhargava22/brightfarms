@@ -1,0 +1,148 @@
+.sunny-crunch{
+    display: flex;
+}
+.sunny-crunch-content{
+    display: flex;
+    width: 55%;
+}
+.leaf1{
+    padding-top: 180;
+}
+.leaf1 img{
+    height: 300;
+}
+.sunny-crunch-bowl img{
+    height: 650px;
+    width: 80%;
+}
+.leaf2{
+    width: fit-content;
+}
+.leaf2 img{
+    height: 200;
+    top: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+.sunny-crunch-text{
+    padding-top: 50;
+    width: 50%  ;
+}
+.sunny-crunch-text h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #006241;
+    font-size: 40;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+}
+.sunny-text-content{
+    padding-left: 0;
+    padding-top: 10px;
+    display: flex;
+}
+.sunny-crunch-text h3{
+    width: 87%;
+    color: #006241d3;
+    line-height: 35px;
+    font-size: 22;
+    font-weight: 100;
+}
+.leaf4 img{
+    height: 200;
+    padding-bottom: 40;
+}
+.leaf4{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.leaf5 img{
+    height: 300;
+}
+.bottom-leafs{
+    display: flex;
+}
+.leaf1-new{
+    padding-top: 50;
+}
+.leaf1-new img{
+    height: 190;
+}
+.sunny-texts a{
+    text-decoration: none;
+    list-style: none;
+    color: #E46E31;
+    font-size: 18;
+    letter-spacing: 1.5;
+}
+#more{
+    width: fit-content;
+}
+#more:hover{
+    transition: 0.3s all ease-in-out;
+    border-bottom: 2px solid #E46E31 ;
+}
+.organic-quotes-content{
+    display: flex;
+}
+.organic-left{
+    width: 60%;
+}
+.organic-left img{
+    height: 400;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 150;
+}
+.organic-image{
+    width: 100%;
+}
+.organic-image img{
+    height: 800;
+    width: 100%;
+}
+.pure-left{
+    width: 60%;
+}
+.pure-left img{
+    width: 100%;
+    height: 700;
+}
+#organic-image2{
+    height: 200;
+    margin-top: 50;
+    margin-left: 70;
+}
+.pure-quotes-content{
+    display: flex;
+}
+.pure-text{
+    width: 50%;
+    margin-top: 140;
+    padding-left: 10;
+}
+.pure-text h1{
+    color: #006241;
+    font-weight: 800;
+    font-size: 45;
+}
+.pure-text h4{
+    font-weight: normal;
+    width: 75%;
+    color: rgba(111, 112, 115, 0.918);
+    line-height: 1.7;
+    font-size: 24;
+}
+.pure-text a {
+    text-decoration: none;
+    color:  #E46E31;
+    font-size: 19;
+}
+#find{
+    width: fit-content;
+}
+#find:hover{
+    border-bottom: 2px solid  #E46E31;
+    transition: 0.3s all ease-in-out;
+}
