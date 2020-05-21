@@ -146,3 +146,30 @@
     border-bottom: 2px solid  #E46E31;
     transition: 0.3s all ease-in-out;
 }
+.our-farms-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#secound-text{
+    font-style: italic;
+    margin-right: 15;
+}
+#first-text , #secound-text , #third-text {
+    padding-right: 10;
+    color: #006241;
+    font-size: 45;
+}
+.farms-wrapper{
+    width: 84%;
+    overflow: hidden;
+    height: 250px;
+    margin: 0 auto;
+}
+.farm{
+    background-color: yellow;
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+    margin: 0 10;
+}
