@@ -166,10 +166,30 @@
     height: 250px;
     margin: 0 auto;
 }
+.our-farms{
+    position: relative;
+}
 .farm{
-    background-color: yellow;
+    justify-content: center;
     display: inline-block;
     width: 350px;
-    height: 250px;
+    
     margin: 0 10;
+}
+.next{
+    top: 65%;
+    position: absolute;
+    right: 40px;   
+    cursor: pointer;
+}
+.prev{
+    top: 65%;
+    position: absolute;
+    left: 30px;
+    cursor: pointer;
+}
+.slider-image{
+    
+    height: 250;
+    width: 250;
 }
