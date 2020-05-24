@@ -1,0 +1,51 @@
+.footer-left{
+    width: 60%;
+    font-size: 20px;
+}
+.footer{
+    margin-top: 50;
+    background-color: #F9F5EF;
+}
+#from{
+    padding: 0 5;
+    font-style: italic;
+}
+.footer-content{
+    padding: 50 50;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.footer-right img{
+    width: 400;
+    height: 400;
+}
+.form{
+    display: flex;
+}
+.firstname, .lastname , .email{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50;
+}
+.firstname label ,.lastname label,.email label{
+    padding-bottom: 20;
+    color: #6F7063;
+    font-weight: 600;
+    font-size: 15;
+}
+.firstname input , .lastname input , .email input{
+    height: 40;
+    border: 1px solid #eee;
+} 
+button{
+    margin-top: 41;
+    height: 40;
+    width: 120;
+    border: 2px solid #e46e31;
+    background-color: transparent;
+    color: #e46e31;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
