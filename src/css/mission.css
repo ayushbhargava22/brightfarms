@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');body{
+    margin: 0;
+    padding: 0;
+    border: 0;  
+    min-height: 100%;
+    font-family: 'Signika Negative', sans-serif;
+    display: block;
+}
+*{
+    box-sizing: border-box;
+}
+div{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.container{
+   
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    width: 100%;
+    min-height: 675px;
+}
+.main-page{
+    background-color: #F9F5EF;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logo img{
+    height: 70px;
+    width: 300;
+    padding-top: 15;
+}
+
+.navbar-content{
+    padding: 0 20;
+    display: flex;
+    align-items: center;
+}
+#navbar-left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+#navbar-right{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25;
+}
+.menu-links{
+    justify-content: end;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    letter-spacing: 1.5px;
+}
+.menu-links li{
+    margin-left: 20;
+    margin-right: 10;
+    color: #6F7073;
+    font-weight: 800;
+    font-size: 14px;
+}
+.menu-links a{
+    text-decoration: none;
+}
+#ourmission:hover{
+    color: #e4a42d;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #e4a42d;
+}
+#grow:hover{
+    color: #e4a42d;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #e4a42d;
+}
+#farms:hover{
+    color: #e4a42d;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #e4a42d;
+}
+#products:hover{
+    color: #e4a42d;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #e4a42d;
+}
+#buy:hover{
+    color: #e4a42d;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #e4a42d;
+}
+#faq:hover{
+    color: #e4a42d;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #e4a42d;
+}
