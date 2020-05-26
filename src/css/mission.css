@@ -173,7 +173,7 @@ div{
 .page-gallery{
     display: flex;
     position: relative;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 60px;
     -webkit-box-pack: justify;
 }
@@ -273,4 +273,16 @@ div{
     height: 100%;
     width: 100%;
     
+}
+.random-text-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.random-text-wrap h2{
+    line-height: 4rem;
+    color: #006241;
+    letter-spacing: 1px;
+    font-size: 24px;
 }
