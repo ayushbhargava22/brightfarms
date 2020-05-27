@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="38px" viewBox="0 0 42 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon - Briefcase</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Our-Mission" transform="translate(-714.000000, -4572.000000)" stroke="#635D9A" stroke-width="1.5">
+            <g id="Para-3" transform="translate(403.000000, 4456.000000)">
+                <g id="Icon---Briefcase" transform="translate(312.000000, 117.000000)">
+                    <polyline id="Stroke-1" points="39 18 39 36 1 36 1 18"></polyline>
+                    <path d="M23.7223406,21 C27.8711941,20.5498574 33.2695151,19.4229268 38.2914422,17.5735646 C39.315374,17.1963472 40,16.18169 40,15.0453159 L40,6.85041152 C40,5.82840935 39.2081193,5 38.2318005,5 L1.76819947,5 C0.791880717,5 0,5.82840935 0,6.85041152 L0,15.1114208 C0,16.2268092 0.657561709,17.2225793 1.65493046,17.615536 C4.25510588,18.640686 9.71457211,20.4769322 16.5558201,21" id="Stroke-3"></path>
+                    <path d="M23.0897266,26 L16.9102734,26 C16.4073012,26 16,25.5852568 16,25.0743661 L16,19.9256339 C16,19.4147432 16.4073012,19 16.9102734,19 L23.0897266,19 C23.5921393,19 24,19.4147432 24,19.9256339 L24,25.0743661 C24,25.5852568 23.5921393,26 23.0897266,26 Z" id="Stroke-5"></path>
+                    <polyline id="Stroke-7" points="26 6 26 0 14 0 14 6"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

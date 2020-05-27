@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="34px" viewBox="0 0 56 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon - Money</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 34 56 34 56 0 0 0"></polygon>
+    </defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Our-Mission" transform="translate(-497.000000, -3144.000000)">
+            <g id="Para-2" transform="translate(372.000000, 2969.000000)">
+                <g id="Icon---Money" transform="translate(125.000000, 175.000000)">
+                    <path d="M36,17.5003277 C36,22.1941864 32.1940396,26 27.5,26 C22.805305,26 19,22.1941864 19,17.5003277 C19,12.8058136 22.805305,9 27.5,9 C32.1940396,9 36,12.8058136 36,17.5003277 Z" id="Stroke-1" stroke="#A2BD3C" stroke-width="1.5"></path>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-4"></g>
+                    <polygon id="Stroke-3" stroke="#A2BD3C" stroke-width="1.5" mask="url(#mask-2)" points="1 33 55 33 55 0 1 0"></polygon>
+                    <polyline id="Stroke-5" stroke="#A2BD3C" stroke-width="1.5" mask="url(#mask-2)" points="42 6 51 6 51 12"></polyline>
+                    <polyline id="Stroke-6" stroke="#A2BD3C" stroke-width="1.5" mask="url(#mask-2)" points="14 28 5 28 5 22"></polyline>
+                    <polyline id="Stroke-7" stroke="#A2BD3C" stroke-width="1.5" mask="url(#mask-2)" points="14 6 5 6 5 12"></polyline>
+                    <polyline id="Stroke-8" stroke="#A2BD3C" stroke-width="1.5" mask="url(#mask-2)" points="42 28 51 28 51 22"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
