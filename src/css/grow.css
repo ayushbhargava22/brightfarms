@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');body{
+    margin: 0;
+    padding: 0;
+    border: 0;  
+    min-height: 100%;
+    font-family: 'Signika Negative', sans-serif;
+    display: block;
+}
+*{
+    box-sizing: border-box;
+}
+div{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.container{
+   
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    width: 100%;
+    min-height: 675px;
+}
+.main-page{
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logo img{
+    height: 70px;
+    width: 300;
+    padding-top: 15;
+}
+
+.navbar-content{
+    padding: 0 20;
+    display: flex;
+    align-items: center;
+}
+#navbar-left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+#navbar-right{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25;
+}
+.menu-links{
+    justify-content: end;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    letter-spacing: 1.5px;
+}
+.menu-links li{
+    margin-left: 20;
+    margin-right: 10;
+    color: #6F7073;
+    font-weight: 800;
+    font-size: 14px;
+}
+.menu-links a{
+    text-decoration: none;
+}
+#ourmission:hover{
+    color: #e4a42d;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #e4a42d;
+}
+#grow:hover{
+    color: #e4a42d;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #e4a42d;
+}
+#farms:hover{
+    color: #e4a42d;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #e4a42d;
+}
+#products:hover{
+    color: #e4a42d;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #e4a42d;
+}
+#buy:hover{
+    color: #e4a42d;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #e4a42d;
+}
+#faq:hover{
+    color: #e4a42d;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #e4a42d;
+}
+.page-header{
+    position: relative;
+    width: 100%;
+    background-color: #fffcf5;
+}
+.large-header{
+    padding-left: 20px;
+    position: relative;
+    z-index: 20;
+    padding-right: 20;
+    margin: 0 auto;
+}
+.header-container{
+    position: absolute;
+    top: 50%;
+    /*transform: translateX(-50%);*/
+    display: flex;
+    align-items: center;
+    left: 0;
+    z-index: 20;
+}
+.header-container img{
+    padding-top: 40;
+    width: 52%;
+    height: auto;
+}
+.header-container h1{
+    font-size: 90;
+    color: #006241;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
