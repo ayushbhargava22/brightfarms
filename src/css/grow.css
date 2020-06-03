@@ -344,3 +344,34 @@ div{
     border: 2px solid red;
     transition: 0.5s ease-in-out;
 }
+.sub-menu{
+    position: absolute;
+    top: 70px;
+    min-width: 223px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 5px 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 30px 20px 20px;
+    list-style: none;
+    margin: 0;
+    padding-right: 0px;
+    z-index: 100;
+}
+.sub-menu li{
+    position: relative;   
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+.sub-menu a{
+    color: rgb(109, 110, 113);
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 3rem;
+    transition: all 0.3s ease-in-out 0s;
+}
+.sub-menu li :hover{
+    color: #e4a42d;
+}
