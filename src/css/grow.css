@@ -224,3 +224,123 @@ div{
     border-bottom: 2px solid #e4a42d;
     transition: 0.3s ease-in;
 }
+.hwg-section-2{
+    margin-top: 180px;
+    margin-bottom: 120px;
+    position: relative;
+}
+.x2-frame{
+    display: flex;
+}
+.header-image-2{
+    width: 60%;
+}
+.image-wrap2{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 6px 8px -4px rgba(0,0,0,.25);
+}
+.header-image-2 img{
+    width: 100%;
+    height: 550px;
+}
+.x2-frame-content{
+    width: 50%;
+    margin-top: 140;
+    padding-left: 50;
+}
+.x2-frame-content-wrap h2{
+    font-family: 'Satisfy', cursive;
+    font-size: 55;
+    color: #006241;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+.x2-frame-content-wrap p{
+    font-size: 18;
+    width: 70%;
+    line-height: 2rem;
+    color: #6F7073;
+    font-weight: lighter;
+}
+.hwg-section-3{
+    margin-bottom: 120px;
+    display: flex;
+}
+.x3-frame-content{
+
+    width: 55%;
+    padding-left: 100;
+}
+.x3-frame-content-wrap h2{
+    font-family: 'Satisfy', cursive;
+    font-size: 55;
+    color: #006241;
+    margin-bottom: 0;
+    font-weight: normal;
+    
+}
+.x3-frame-content-wrap p{
+    font-size: 18;
+    width: 80%;
+    line-height: 2rem;
+    color: #6F7073;
+    font-weight: lighter;
+}
+.x3-frame{
+    width: 55%;
+}
+.x3-frame img{
+    width: 100%;
+    height: 600px;
+}
+.image-wrap3{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 6px 8px -4px rgba(0,0,0,.25);
+}
+
+.product-direct{
+    background-color: #f8a700; 
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-direct-wrap{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-direct-wrap h2:nth-child(1)
+{
+    font-size: 40;
+    font-style: italic;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 0;
+}
+.product-direct-wrap h2:nth-child(2)
+{
+    margin-top: 40;
+    font-size: 60;
+    letter-spacing: 1.5px;
+    color: white;
+    line-height: 0;
+}
+.product-wrap-frame button{
+    width: 200px;
+    color: white;
+    font-size: 12;
+    cursor: pointer;
+    background-color: #6F7073;
+    border: 1px solid #6d6e71;
+}
+.all-products:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    transition: 0.5s ease-in-out;
+}
