@@ -1,5 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');body{
+    margin: 0;
+    padding: 0;
+    border: 0;  
+    min-height: 100%;
+    font-family: 'Signika Negative', sans-serif;
+    display: block;
+}
+*{
+    box-sizing: border-box;
+}
+div{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.container{
+   
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    width: 100%;
+    min-height: 675px;
+}
 .main-page{
-    background-image: url(../assests/background-image.png);
     height: 650px;
     background-repeat: no-repeat;
     background-position: center;
@@ -12,10 +37,13 @@
 }
 .navbar{
     /*position: fixed;*/
+    background-color: #007935;
+    color: white;
 }
 .navbar-content{
     padding: 0 20;
     display: flex;
+    color: white;
     align-items: center;
 }
 #navbar-left{
@@ -40,7 +68,7 @@
 .menu-links li{
     margin-left: 20;
     margin-right: 10;
-    color: #6F7073;
+    color: white;
     font-weight: 800;
     font-size: 14px;
 }
@@ -127,4 +155,55 @@
 }
 .sub-menu li :hover{
     color: #e4a42d;
+}
+.page-header{
+    background-color: #007935;
+    padding-top: 60;
+    position: relative;
+}
+.frame{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+}
+
+.left-page-wrap {
+    font-size: 70px;
+    line-height: 1;
+    margin-top: 70;
+}
+#eating{
+    display: flex;
+    justify-content: flex-end;
+}
+.left-page-wrap h1{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 0;
+}
+#best {
+    display: flex;
+    justify-content: flex-end;
+}
+.product-page-right{
+    margin-left: 100;
+    width: 50%;
+    margin-top: 50px;
+}
+.right-page-wrap h2{
+    color: white;
+    font-weight: lighter;
+    font-size: 27;
+    line-height: 3rem;
+    transition: all .35s ease-in-out;
+}
+.product-leave-image img{
+    width: 97%;
+    padding-left: 20;
+    position: absolute;
+    bottom: -150px;
 }
