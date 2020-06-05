@@ -25,7 +25,7 @@ div{
     min-height: 675px;
 }
 .main-page{
-    height: 650px;
+    max-height: 650px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -130,4 +130,97 @@ div{
 }
 .sub-menu li :hover{
     color: #e4a42d;
+}
+#fre{
+    font-family: 'Satisfy', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.faq-heading-wrap{
+    font-size: 34;
+    color: #006241;
+    padding: 0 20px;
+}
+.faq-heading-wrap span {
+    padding-left: 20px;
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-family: 'Signika Negative', sans-serif;
+}
+.nav-section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 10;
+    justify-content: center;
+}
+.nav-section a{
+    text-decoration: none;
+    color: #6F7073;
+}
+.nav-section h2{
+    font-size: 18px;
+    padding: 0 70;
+}
+.nav-section h2::after{
+    content: "";
+    width: 2px;
+    background-color: #fcd200;
+    position: absolute;
+    top: 56.5%;
+    margin-left: 50;
+    height: 16px;
+    transform: translateY(-50%);
+}
+.nav-section h2:hover{
+    color: #e4a42d;
+    transition: 200ms ease-in;
+}
+.all-question-wrap{
+    margin: 0 auto;
+    max-width: 800px;
+}
+.all-question{
+    margin-top: 150px;
+}
+.question-1 , .question-2{
+    border-bottom: 3px solid rgba(111, 112, 115, 0.329);
+    padding-bottom: 50;
+}
+
+.ques-section-1 h2{
+    font-size: 30px;
+    color: #006241;
+    padding-bottom: 10;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.question-1 h2 , .question-2 h2 , .question-3 h2{
+    color: #006241;
+}
+.question-1-ans h2,.question-2-ans h2{
+    color:#6d6e71b2;
+    line-height: 1.8rem;
+    font-weight: 100;
+    font-size: 20;
+}
+.ans{
+    color: #e4a42d;
+}
+.points{
+    color:#6d6e71b2;
+    font-weight: 100;
+    line-height: 1.8rem;
+    font-size: 20;
+}
+.points li{
+    padding-bottom: 10px;
+}
+.question-2 , .question-3{
+    padding-top: 50px;
+}
+.question-3{
+    padding-bottom: 50px;
 }
